@@ -1,0 +1,47 @@
+# myproject.proteinortho.tsv statistics:
+# species-antipercentile (groups that contains at least p% species):
+# p	species	groups	genes in groups
+0%	0	4688 (100%)	20607 (100%)	
+20%	1	4688 (100%)	20607 (100%)	
+40%	2	4687 (99.97%)	20606 (99.99%)	
+60%	3	4092 (87.28%)	19404 (94.16%)	
+80%	4	3701 (78.94%)	18205 (88.34%)	
+100%	5	3380 (72.09%)	16912 (82.06%)	
+# NOTE: p=100% correspond to the core proteome and p=0% to all groups
+# groups that contains only one species:
+single	5	1 (0.02%)	1 (0%)	
+# number of groups for each input species:
+oligotrophicus_protein.faa	4317	92.08%
+sichuanensis_protein.faa	4317	92.08%
+ludwigii_protein.faa	4055	86.49%
+chengduensis_protein.faa	3959	84.44%
+soli_protein.faa	3900	83.19%
+
+# ----------------------------------
+# graph file statistics:
+# The adjacency matrix, the number of edges between 2 species
+# file	chengduensis_protein.faa	ludwigii_protein.faa	oligotrophicus_protein.faa	sichuanensis_protein.faa	soli_protein.faa	
+chengduensis_protein.faa	0	3748	3704	3704	3675
+ludwigii_protein.faa	3748	0	3805	3805	3674
+oligotrophicus_protein.faa	3704	3805	0	4335	3623
+sichuanensis_protein.faa	3704	3805	4335	0	3623
+soli_protein.faa	3675	3674	3623	3623	0
+# file	average number of edges
+chengduensis_protein.faa	2966.2	
+ludwigii_protein.faa	3006.4	
+oligotrophicus_protein.faa	3093.4	
+sichuanensis_protein.faa	3093.4	
+soli_protein.faa	2919	
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	chengduensis_protein.faa	ludwigii_protein.faa	oligotrophicus_protein.faa	sichuanensis_protein.faa	soli_protein.faa	
+chengduensis_protein.faa(0)	54992361	41689390	43632505	43632505	40609336
+ludwigii_protein.faa(1)	83378780	56501830	43688169	43688169	41344930
+oligotrophicus_protein.faa(2)	87265010	87376338	60115995	41323770	43297475
+sichuanensis_protein.faa(3)	87265010	87376338	82647540	60115995	43297475
+soli_protein.faa(4)	81218672	82689860	86594950	86594950	53256159
+# file	average number of 2-paths
+chengduensis_protein.faa(0)	78823966.6
+ludwigii_protein.faa(1)	79464629.2
+oligotrophicus_protein.faa(2)	80799966.6
+sichuanensis_protein.faa(3)	80799966.6
+soli_protein.faa(4)	78070918.2
