@@ -1,47 +1,47 @@
 # myproject.proteinortho.tsv statistics:
 # species-antipercentile (groups that contains at least p% species):
 # p	species	groups	genes in groups
-0%	0	4688 (100%)	20607 (100%)	
-20%	1	4688 (100%)	20607 (100%)	
-40%	2	4687 (99.97%)	20606 (99.99%)	
-60%	3	4092 (87.28%)	19404 (94.16%)	
-80%	4	3701 (78.94%)	18205 (88.34%)	
-100%	5	3380 (72.09%)	16912 (82.06%)	
+0%	0	4362 (100%)	16100 (100%)	
+20%	1	4362 (100%)	16100 (100%)	
+40%	2	4360 (99.95%)	16098 (99.98%)	
+60%	3	3802 (87.16%)	14955 (92.88%)	
+80%	4	3385 (77.6%)	13685 (85%)	
+100%	5	130 (2.98%)	650 (4.03%)	
 # NOTE: p=100% correspond to the core proteome and p=0% to all groups
 # groups that contains only one species:
-single	5	1 (0.02%)	1 (0%)	
+single	5	2 (0.04%)	2 (0.01%)	
 # number of groups for each input species:
-oligotrophicus_protein.faa	4317	92.08%
-sichuanensis_protein.faa	4317	92.08%
-ludwigii_protein.faa	4055	86.49%
-chengduensis_protein.faa	3959	84.44%
-soli_protein.faa	3900	83.19%
+ludwigii_protein.faa	4054	92.93%
+sichuanensis_protein.faa	3992	91.51%
+chengduensis_protein.faa	3958	90.73%
+soli_protein.faa	3900	89.4%
+oligotrophicus_protein.faa	135	3.09%
 
 # ----------------------------------
 # graph file statistics:
 # The adjacency matrix, the number of edges between 2 species
 # file	chengduensis_protein.faa	ludwigii_protein.faa	oligotrophicus_protein.faa	sichuanensis_protein.faa	soli_protein.faa	
-chengduensis_protein.faa	0	3748	3704	3704	3675
-ludwigii_protein.faa	3748	0	3805	3805	3674
-oligotrophicus_protein.faa	3704	3805	0	4335	3623
-sichuanensis_protein.faa	3704	3805	4335	0	3623
-soli_protein.faa	3675	3674	3623	3623	0
+chengduensis_protein.faa	0	3748	132	3704	3675
+ludwigii_protein.faa	3748	0	135	3805	3674
+oligotrophicus_protein.faa	132	135	0	135	133
+sichuanensis_protein.faa	3704	3805	135	0	3623
+soli_protein.faa	3675	3674	133	3623	0
 # file	average number of edges
-chengduensis_protein.faa	2966.2	
-ludwigii_protein.faa	3006.4	
-oligotrophicus_protein.faa	3093.4	
-sichuanensis_protein.faa	3093.4	
-soli_protein.faa	2919	
+chengduensis_protein.faa	2251.8	
+ludwigii_protein.faa	2272.4	
+oligotrophicus_protein.faa	107	
+sichuanensis_protein.faa	2253.4	
+soli_protein.faa	2221	
 # The 2-path matrix, the number of paths between 2 species of length 2
 # file	chengduensis_protein.faa	ludwigii_protein.faa	oligotrophicus_protein.faa	sichuanensis_protein.faa	soli_protein.faa	
-chengduensis_protein.faa(0)	54992361	41689390	43632505	43632505	40609336
-ludwigii_protein.faa(1)	83378780	56501830	43688169	43688169	41344930
-oligotrophicus_protein.faa(2)	87265010	87376338	60115995	41323770	43297475
-sichuanensis_protein.faa(3)	87265010	87376338	82647540	60115995	43297475
-soli_protein.faa(4)	81218672	82689860	86594950	86594950	53256159
+chengduensis_protein.faa(0)	41290169	27613490	1494795	27593485	27207300
+ludwigii_protein.faa(1)	55226980	42042030	1497053	27211719	27577370
+oligotrophicus_protein.faa(2)	2989590	2994106	71563	1484462	1470195
+sichuanensis_protein.faa(3)	55186970	54423438	2968924	41341995	27609725
+soli_protein.faa(4)	54414600	55154740	2940390	55219450	40147719
 # file	average number of 2-paths
-chengduensis_protein.faa(0)	78823966.6
-ludwigii_protein.faa(1)	79464629.2
-oligotrophicus_protein.faa(2)	80799966.6
-sichuanensis_protein.faa(3)	80799966.6
-soli_protein.faa(4)	78070918.2
+chengduensis_protein.faa(0)	41821661.8
+ludwigii_protein.faa(1)	41968258.8
+oligotrophicus_protein.faa(2)	2392914.6
+sichuanensis_protein.faa(3)	41828155.4
+soli_protein.faa(4)	41575379.8
