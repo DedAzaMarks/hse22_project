@@ -1,5 +1,7 @@
 # hse22_project
 
+https://colab.research.google.com/drive/1KzJPp-1LYaZ07g2PTYvjJtKxdbA84oc2?usp=sharing
+
 Входные данные
 
 | геном | **GC%** | файл |
